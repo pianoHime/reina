@@ -50,7 +50,7 @@ void clearScreen(void);
 int main(){
 
     // system( "color A" );//LGT green
-  //  cout << COLOR_GREEN;
+    cout << COLOR_GREEN;
     clearScreen();
     bool gridOne[gridSize+1][gridSize+1] = {};
     int x,y,n;
@@ -132,7 +132,7 @@ int main(){
 	  {
             printGrid(gridOne);
             determineState(gridOne);
-          //  usleep(200000);
+            usleep(200000);
             clearScreen();
 	  }
       }
